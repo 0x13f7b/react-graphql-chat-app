@@ -1,0 +1,16 @@
+{
+  "name": "sample-graphql-react-chat-app",
+  "version": "1.0.0",
+  "description": "Chat application for training purposes",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "cd server && npm run start",
+    "start:client": "cd client && npm run start",
+    "start:dev": "concurrently \"npm run start:client\" \"npm run start:server\""
+  },
+  "author": "Mihai Theodor Enescu",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
